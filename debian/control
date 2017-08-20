@@ -1,0 +1,12 @@
+Source: ros-kinetic-gps-goal
+Section: misc
+Priority: extra
+Maintainer: Daniel Snider <danielsnider12@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-actionlib, ros-kinetic-actionlib-msgs, ros-kinetic-catkin, ros-kinetic-geometry-msgs, ros-kinetic-move-base-msgs, ros-kinetic-rospy, ros-kinetic-sensor-msgs, ros-kinetic-tf
+Homepage: http://wiki.ros.org/gps_goal
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-gps-goal
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python-geographiclib, ros-kinetic-actionlib, ros-kinetic-actionlib-msgs, ros-kinetic-click, ros-kinetic-geometry-msgs, ros-kinetic-move-base-msgs, ros-kinetic-rospy, ros-kinetic-sensor-msgs, ros-kinetic-tf
+Description: Set a ROS navigation goal using latitude and longitude.
